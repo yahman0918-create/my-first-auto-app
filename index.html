@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自己紹介 | yahman0918-create</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background: #0f0f1a;
+      color: #e0e0e0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      border: 1px solid #2a2a4a;
+      border-radius: 20px;
+      padding: 60px 48px;
+      max-width: 640px;
+      width: 90%;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+      text-align: center;
+    }
+
+    .avatar {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      margin: 0 auto 28px;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #667eea, #f093fb);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      color: #8888aa;
+      font-size: 0.95rem;
+      margin-bottom: 32px;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      margin-bottom: 32px;
+    }
+
+    .tag {
+      background: rgba(102, 126, 234, 0.15);
+      border: 1px solid rgba(102, 126, 234, 0.3);
+      color: #aab4f0;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+    }
+
+    .bio {
+      color: #b0b0cc;
+      line-height: 1.8;
+      font-size: 0.95rem;
+      margin-bottom: 36px;
+    }
+
+    .links {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+    }
+
+    .btn {
+      padding: 12px 28px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+    }
+
+    .btn-primary:hover { opacity: 0.85; transform: translateY(-2px); }
+
+    .btn-secondary {
+      background: transparent;
+      border: 1px solid #2a2a4a;
+      color: #8888aa;
+    }
+
+    .btn-secondary:hover { border-color: #667eea; color: #aab4f0; }
+
+    .footer {
+      margin-top: 40px;
+      color: #444466;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">🤖</div>
+    <h1>yahman0918-create</h1>
+    <p class="subtitle">Builder / Creator</p>
+
+    <div class="tags">
+      <span class="tag">Web制作</span>
+      <span class="tag">WordPress</span>
+      <span class="tag">自動化</span>
+      <span class="tag">Claude Code</span>
+      <span class="tag">AI活用</span>
+    </div>
+
+    <p class="bio">
+      このサイトはGitHubで管理されています。<br>
+      Claude Codeと一緒に、最強の作業環境を構築中。<br>
+      アイデアを形にするのが好きです。
+    </p>
+
+    <div class="links">
+      <a href="https://github.com/yahman0918-create" class="btn btn-primary" target="_blank">GitHub</a>
+      <a href="mailto:yahman0918@gmail.com" class="btn btn-secondary">Contact</a>
+    </div>
+
+    <p class="footer">Built with Claude Code · 2026</p>
+  </div>
+</body>
+</html>
